@@ -36,7 +36,10 @@ Our deep learning frame is shown here:
 
 See our (raw) model here: https://github.com/Lorisyy/iGEM-CNN-Regression/blob/main/CNN_wiki_v2.pdf
 
-
+## Running details
+Data processing.  
+1. Run data_process/data_process.py which converts data to the csv file and get all_tf.csv, train_file.csv, test_file.csv, respectively
+2. Run get_tf_txtfile.py to get the tf data to be re-tf_txt.txt
 
 
 This may confuse you somewhere, please contact me.
