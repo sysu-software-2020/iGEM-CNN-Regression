@@ -8,6 +8,7 @@ This is a model that based on open-source TF-biding-score database.
 Since DNA and TF are both made up of a limited number of known components, inspring me of using one-hot encoding.   
 One-hot encoding Digitize the characteristics of the classified values, here is an example shows how DNA could be encoded into matrix form to fit deep learning.  
 
+
 ![DNA-One-hot-encoding](imgs/one-hot.png)
 
 ## How to use it ?
@@ -30,8 +31,9 @@ Installing python is very easy, see the tutorial here! [Let's begin with Python!
 
 
 ## IGEM graphic model
-Our deep learning frame is shown here:
-![CNN_pic](imgs/CNN.png)
+Our deep learning frame is shown here:  
+![CNN_pic](imgs/CNN.png)  
+
 See our (raw) model here: https://github.com/Lorisyy/iGEM-CNN-Regression/blob/main/CNN_wiki_v2.pdf
 
 
