@@ -39,7 +39,7 @@ See our (raw) model here: https://github.com/Lorisyy/iGEM-CNN-Regression/blob/ma
 ## Running details
 Data processing.  
 1. Run data_process/data_process.py which converts data to the csv file and get all_tf.csv, train_file.csv, test_file.csv, respectively
-2. Run get_tf_txtfile.py to get the tf data to be re-tf_txt.txt
+2. Run get_tf_txtfile.py to get the refined tf data in tf_txt.txt
 
 
 This may confuse you somewhere, please contact me.
