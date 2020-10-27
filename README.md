@@ -19,9 +19,13 @@ Installing python is very easy, see the tutorial here! [Let's begin with Python!
 Use this command in cmd(command line mode in windows) below to let your computer have a same model like me!
     > $ git clone https://github.com/sysu-software-2020/iGEM-CNN-Regression.git   
 
+    To make sure you don't have to worry about annoying packages, you can install python dependencies here!
+    > $ pip install -r requirements.txt  
+
     Then run local program to predict your result:
-    + YOUR_TF : TF name you need as variable  
-    + YOUR_DNA: biding-site you want to predict  
+    1. YOUR_TF : TF name you need as variable  
+    2. YOUR_DNA: biding-site you want to predict  
+
     > $ python predict.py YOUR_TF YOUR_DNA
 
 
