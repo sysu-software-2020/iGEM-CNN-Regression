@@ -6,9 +6,23 @@ This is a model that based on open-source TF-biding-score database.
 
 ## Data preprocessing
 Since DNA and TF are both made up of a limited number of known components, inspring me of using one-hot encoding.   
-One-hot encoding Digitize the characteristics of the classified values, here is an example shows how DNA could be encoded into matrix form to fit deep learning.
+One-hot encoding Digitize the characteristics of the classified values, here is an example shows how DNA could be encoded into matrix form to fit deep learning.  
 
 ![DNA-One-hot-encoding](imgs/one_hot_encoding.png)
+
+## How to use it ?
+If you don't have such deep learning background before, don't worry, this will only take a few minutes...  
+1. Make sure your computer has a python compilation environment   
+Installing python is very easy, see the tutorial here! [Let's begin with Python!](https://www.python.org/downloads/)   
+
+2. Aha! Already with Python?  
+Use this command in cmd(command line mode in windows) below to let your computer have a same model like me!
+    > $ git clone https://github.com/sysu-software-2020/iGEM-CNN-Regression.git   
+
+    Then run local program to predict your result:
+    + YOUR_TF : TF name you need as variable  
+    + YOUR_DNA: biding-site you want to predict  
+    > $ python predict.py YOUR_TF YOUR_DNA
 
 
 ## IGEM graphic model
