@@ -42,4 +42,4 @@ Data processing.
 2. Run get_tf_txtfile.py to get the refined tf data in tf_txt.txt
 
 
-This may confuse you somewhere, please contact me.
+This may confuse you somewhere, please contact [me](suyy26@mail2.sysu.edu.cn) .
