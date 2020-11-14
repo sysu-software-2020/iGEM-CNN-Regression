@@ -29,10 +29,10 @@ Installing python is very easy, see the tutorial here! [Let's begin with Python!
     1. YOUR_TF : TF name.   
     2. YOUR_DNA: biding-site you want to predict.   
 
-    `$ python predict.py YOUR_TF YOUR_DNA`
+    `$ python predict_value.py YOUR_TF YOUR_DNA`
     
     Example:  
-    `$ python predict.py P07269	GAACAACTAGCATCCCCGATAAGACGGAATAGAATAGTAAAGATTGTGATTCATTGGCAGGTCCATTGTCGCATTACTAAATCATAGGCATGGAAATTTCCAGTTCACCATGGAACGACGGT`  
+    `$ python predict_value.py P07269	GAACAACTAGCATCCCCGATAAGACGGAATAGAATAGTAAAGATTGTGATTCATTGGCAGGTCCATTGTCGCATTACTAAATCATAGGCATGGAAATTTCCAGTTCACCATGGAACGACGGT`  
     
     And the result(score) is :  
     `1.62477`  
