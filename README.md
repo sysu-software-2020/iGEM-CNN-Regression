@@ -32,11 +32,13 @@ Installing python is very easy, see the tutorial here! [Let's begin with Python!
     `$ python predict_value.py YOUR_TF YOUR_DNA`
     
     Example:  
-    `$ python predict_value.py P07269	GAACAACTAGCATCCCCGATAAGACGGAATAGAATAGTAAAGATTGTGATTCATTGGCAGGTCCATTGTCGCATTACTAAATCATAGGCATGGAAATTTCCAGTTCACCATGGAACGACGGT`  
+    `$ python predict_value.py 
+    `Please input your DNA Sequence: GAACAACTAGCATCCCCGATAAGACGGAATAGAATAGTAAAGATTGTGATTCATTGGCAGGTCCATTGTCGCATTACTAAATCATAGGCATGGAAATTTCCAGTTCACCATGGAACGACGGT
+    `Please input your TF name:  P07269`  
     
     And the result(score) is :  
-    `1.62477`  
-    
+    `predict_ reuslt :  2.345088`  
+   
 3. Train this deep learning model on your own?
     Additionally, if you want to train datas on your own, modify the model's [training data path](https://github.com/sysu-software-2020/iGEM-CNN-Regression/blob/d6b46481d815da40d8aa0989c53be9c0ea865d8d/train.py#L23) and [test data path](https://github.com/sysu-software-2020/iGEM-CNN-Regression/blob/d6b46481d815da40d8aa0989c53be9c0ea865d8d/train.py#L24) corresponding to your computer.
 
