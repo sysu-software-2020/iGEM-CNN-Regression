@@ -23,7 +23,7 @@ Installing python is very easy, see the tutorial here! [Let's begin with Python!
     To make sure you don't have to worry about annoying packages, you can install python dependencies here!  
     ` $ pip install -r requirements.txt `  
     
-    And last preparation, modify the [absolute path](https://github.com/sysu-software-2020/iGEM-CNN-Regression/blob/d6b46481d815da40d8aa0989c53be9c0ea865d8d/predict.py#L23) of test data(./iGEM-CNN-Regression/data_process/test_file.csv)  
+    And last preparation, modify the [absolute path](https://github.com/sysu-software-2020/iGEM-CNN-Regression/blob/9b26c7780cced993179a0909ad7107438309f5ce/predict_value.py#L41) of test data(./iGEM-CNN-Regression/data_process/test_file.csv)  
     
     Then run local program to predict your result:
     1. YOUR_TF : TF name.   
