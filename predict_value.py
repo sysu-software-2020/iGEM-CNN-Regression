@@ -38,7 +38,7 @@ def to_categorical(y, num_classes=52):
     return categorical
 
 
-with open(r"H:\train_data\DNA\code\data_process\tf_txt.txt", "r") as f:
+with open(r"data_process/tf_txt.txt", "r") as f:
     all_tf_txt = [file.strip() for file in f.readlines()]
 data_index = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J',
                       'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T',
@@ -47,8 +47,8 @@ data_index = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J',
                       'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x',
                       'y', 'z']
 DNA_IMG = np.zeros((66783,len(data_index)))
-DNA = ""
-TF= ""
+DNA = input('Please input your DNA Sequence: ')
+TF = input('Please input your TF name: ')
 for i,char in enumerate(DNA):
     DNA_IMG[i] = to_categorical(data_index.index(char),num_classes=len(data_index))
 TF = to_categorical(all_tf_txt.index(TF),num_classes=len(all_tf_txt))
